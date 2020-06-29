@@ -1,0 +1,105 @@
+body{
+    font-family:  sans-serif;
+    background-image: radial-gradient(circle, rgb(179, 55, 113), rgb(109, 33, 79));
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    height: 100vh;
+}
+img{
+    max-width: 80%;
+    border-radius: 100%;
+
+}
+.card{
+    background-color: #333;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    margin: 2em auto;
+}
+.card-left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+.card-right{
+    width: 80%;
+    padding: 0 1rem;
+
+}
+.card-title{
+    text-transform: uppercase;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+}
+.for-field{
+display: flex;
+flex-direction: column;
+
+}
+.form-names{
+    display: flex;
+    justify-content: space-between;
+}
+.form-names input{
+    width: 80%;
+}
+.form-label{
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+.form-input,
+.form-textarea{
+background: none;
+border: none;
+border-bottom: 1px solid #eee;
+color: inherit;
+}
+
+.form-textarea{
+ resize: none;
+ border: 1px solid #eee;
+ flex-basis: 100px;
+
+}
+.form-submit{
+width: 40%;
+background-color: #222;
+border: none;
+padding: .8rem;
+text-transform: uppercase;
+color: inherit;
+text-align: center;
+margin-left: 27%;
+}
+.form-submit:hover{
+    background-color: rgb(83, 83, 83);
+    
+}
+.form-submit:active{
+    transform: scale(.7)
+}
+
+@media screen and (max-width: 1000px){
+    .card{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+    .card{
+        width: 80%;
+    }
+    
+}
